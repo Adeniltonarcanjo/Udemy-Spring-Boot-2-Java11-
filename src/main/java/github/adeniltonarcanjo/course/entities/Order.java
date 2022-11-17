@@ -12,7 +12,7 @@ import java.time.Instant;
 @Table(name="tb_order")
 public class Order implements Serializable {
 
-    private static final Long SerialVersionUID=1l;
+    private static final Long serialVersionUID=1l;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

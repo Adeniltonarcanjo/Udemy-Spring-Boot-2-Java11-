@@ -2,18 +2,24 @@ package github.adeniltonarcanjo.course.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "tb_category")
 public class Category implements Serializable {
 
-    private static final Long SerialVersionUID=1l;
+    private static final Long serialVersionUID=1l;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
+
+    @Transient
+    private Set<Product> products = new HashSet<>();
+
 
     public Category() {
     }
@@ -33,6 +39,10 @@ public class Category implements Serializable {
 
     public String getName() {
         return name;
+    }
+
+    public Set<Product> getProducts() {
+        return products;
     }
 
     public void setName(String name) {
