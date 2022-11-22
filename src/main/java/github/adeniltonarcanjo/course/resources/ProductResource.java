@@ -21,7 +21,7 @@ public class ProductResource {
     @Autowired
     public ProductService service;
 
-    @RequestMapping
+    @GetMapping
     ResponseEntity<List<Product>> findAll() {
         List<Product> obj = service.findAll();
         return ResponseEntity.ok().body(obj);

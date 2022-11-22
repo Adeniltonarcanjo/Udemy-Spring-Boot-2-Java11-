@@ -20,7 +20,7 @@ public class CategoryResource {
     @Autowired
     public CategoryService service;
 
-    @RequestMapping
+    @GetMapping
     ResponseEntity<List<Category>> findAll() {
         List<Category> obj = service.findAll();
         return ResponseEntity.ok().body(obj);

@@ -17,16 +17,15 @@ public class OrderItem implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @EmbeddedId
-    private OrderItemPK id= new OrderItemPK();
+    private OrderItemPK id = new OrderItemPK();
 
     private Integer quantity;
     private Double price;
 
     public OrderItem() {
-
     }
 
-    public OrderItem( Order order, Product product, Integer quantity, Double price) {
+    public OrderItem(Order order, Product product, Integer quantity, Double price) {
         super();
         id.setProduct(product);
         id.setOrder(order);
@@ -70,9 +69,8 @@ public class OrderItem implements Serializable {
     }
 
     public Double getSubTotal() {
-        return price*quantity;
+        return price * quantity;
     }
-
 
     @Override
     public int hashCode() {
