@@ -2,7 +2,7 @@ A aplicação consiste em uma web Services, mas especificamente uma API Back-end
 
 # Projeto web services com Spring Boot e JPA / Hibernate
 
-# Sobre o projeto
+# Sobre o projeto ⁉️ 
 
 https://course-javade.herokuapp.com
 
@@ -20,8 +20,8 @@ The application consists of a web services, more specifically a back-end API of 
 ![image](https://user-images.githubusercontent.com/69324694/204042811-0d92823a-7a61-4951-874f-a597dc3d970b.png)
 
 ## Technologies
-- Java
-- Spring Boot
+- Java 11
+- Spring Boot 2.7.5
 - JPA / Hibernate
 - Maven
 - H2 Database 
@@ -58,7 +58,7 @@ All tests can be done in Postman
 ## if it's just testing the application in production
 Just change http://localhost:8080 to https://course-javade.herokuapp.com, for the GET methods, example: https://course-javade.herokuapp.com/users
 
-### author
-Adenilton Morais Arcanjo
+### Author
+**Adenilton Morais Arcanjo**
 
 https://www.linkedin.com/in/adeniltonarcanjo/
