@@ -55,12 +55,10 @@ If you don't have PostgreSQL, change in file:application.properties, in the vari
 All tests can be done in Postman
 
 
-## nglês
-
-if it's just testing in the application in production
+## if it's just testing the application in production
 Just change http://localhost:8080 to https://course-javade.herokuapp.com, for the GET methods, example: https://course-javade.herokuapp.com/users
 
-# Autor
+### author
 Adenilton Morais Arcanjo
 
 https://www.linkedin.com/in/adeniltonarcanjo/
