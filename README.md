@@ -1,8 +1,6 @@
-A aplicação consiste em uma web Services, mas especificamente uma API Back-end de uma parte de um sistema de vendas 
+# Project web services with Spring Boot e JPA / Hibernate
 
-# Projeto web services com Spring Boot e JPA / Hibernate
-
-# Sobre o projeto ⁉️ 
+# About projeto ⁉️ 
 
 https://course-javade.herokuapp.com
 
