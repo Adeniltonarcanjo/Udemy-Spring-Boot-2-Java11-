@@ -1,6 +1,6 @@
 # Project web services with Spring Boot e JPA / Hibernate
 
-# About projeto ⁉️ 
+# About project ⁉️ 
 
 https://course-javade.herokuapp.com
 
